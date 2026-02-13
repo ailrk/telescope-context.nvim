@@ -1,6 +1,14 @@
 # Telescope Context
 
-A Neovim plugin to manage named contexts and locations with Telescope integration. A Context is a list of multiple Locations, a location has a name and a mark to jump to.
+A Neovim plugin to manage named contexts and locations with Telescope integration.
+
+
+## Motivation
+
+Nvim's builtin marks feature works fine when there is not a lot of locations to keep track of. But when things get complicated, it's easy to forget which mark corresponds to which context. I needed a way to associate a mark with some semantics.
+
+This plugin brings two concepts: Context and Location. A Context is a list of Locations, a Location is a tuple of name and a mark to jump to. You can switch among locations with a telescope picker UI.
+
 
 ## Installation
 
