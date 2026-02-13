@@ -7,7 +7,7 @@ A Neovim plugin to manage named contexts and locations with Telescope integratio
 Using packer.nvim:
 
 ```lua
-use { '~/repo/telescope-context.nvim'}
+use { 'ailrk/telescope-context.nvim'}
 ```
 
 Ensure Telescope is installed and loaded.
