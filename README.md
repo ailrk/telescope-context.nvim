@@ -45,7 +45,7 @@ Adds the current cursor position as a named location to a context.
 ### List context or locations
 
 ```
-:CtxLs [context_name]
+:CtxLs <context_name>
 ```
 
 * No argument: lists all contexts in Telescope. Selecting one opens its locations.
